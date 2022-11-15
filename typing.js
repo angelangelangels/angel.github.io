@@ -1,6 +1,6 @@
 // <![CDATA[
 var news = Array(
-  "hiiiiiii! ☆ o(≧▽≦)o ☆ i'm angel. welcome to angel city. thanks for stopping by."
+  "hiii! o(≧▽≦)o i'm angel. welcome to angel city. enjoy your stay and thank you for stopping by."
 );
 var cursor = "_"; // set cursor
 var delay = 12; // seconds between each news item
