@@ -1,0 +1,224 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sunrise, Parabellum</title>
+    <link rel="stylesheet" type="text/css" href="/style.css" />
+    <link rel="icon" type="image/x-icon" href="/img/bouncyheart.gif" />
+    <script src="/jquery.js"></script>
+    <script src="/tooltips.js"></script>
+    <script>
+      (function ($) {
+        $(document).ready(function () {
+          $("[title]").style_my_tooltips();
+        });
+      })(jQuery);
+    </script>
+  </head>
+
+  <body>
+    <header>
+      <a href="/index.html"
+        ><img
+          src="/img/logo.png"
+          class="logo"
+          alt="Sunrise, Parabellum"
+          title="Sunrise, Parabellum"
+      /></a>
+    </header>
+
+    <main>
+      <div class="vinesLeft"></div>
+      <nav>
+        <h1>Navigation</h1>
+        <ul>
+          <li><a href="/about.html" title="About">About</a></li>
+          <li><a href="/watching.html" title="Watching">Watching</a></li>
+          <li><a href="/reading.html" title="Reading">Reading</a></li>
+          <li><a href="/art.html" title="Art">Art</a></li>
+          <li><a href="/games.html" title="Games">Games</a></li>
+          <li><a href="/garden.html" title="Garden">Garden</a></li>
+          <li><a href="/recs.html" title="Recommendations">Recs</a></li>
+          <li><a href="/ocs.html" title="Mine">OCs</a></li>
+          <li>
+            <button
+              class="toggle"
+              onclick="toggleTheme()"
+              title="Switch Site Theme"
+            >
+              Switch
+            </button>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="main">
+        <section>
+          <h1>About Example</h1>
+          <div class="quote">
+            <div class="bannerContainer"><span id="banner"></span></div>
+            <div class="tip"></div>
+
+            <div class="quoteIcon">
+              <img
+                src="https://archive.cinni.net/test/bouncy-bubbles-avatar-100x100-cartoon-barunson-19.gif"
+                title="example!"
+              />
+            </div>
+          </div>
+          <h2>Purpose:</h2>
+          <p>
+            i got overwhelmed by the gamut of media tracking apps i found myself
+            keeping up with over the years, so i've decided to discontinue them
+            all in favor of maintaining a more personal space. ideally, i'll
+            also be sharing the things i'm into... <em>maybe</em> some of the
+            things i create... we shall see. （*＾-＾*）
+          </p>
+
+          <div style="display: flex; flex-wrap: wrap">
+            <section style="margin: 0 auto">
+              <h3>Unordered List:</h3>
+              <ul>
+                <li>List Item</li>
+                <li>List Item</li>
+                <li>List Item</li>
+              </ul>
+            </section>
+            <section style="margin: 0 auto">
+              <h3>Unordered List:</h3>
+              <ul>
+                <li>List Item</li>
+                <li>List Item</li>
+                <li>List Item</li>
+              </ul>
+            </section>
+          </div>
+
+          <hr />
+
+          <div class="blurb">
+            <h1>title</h1>
+            <div class="icon right">
+              <img
+                src="https://archive.cinni.net/test/bouncy-bubbles-avatar-100x100-anime-13.gif"
+              />
+            </div>
+            <h2>example text</h2>
+            <p>
+              Lorem Ipsum. Pariatur delectus quia magnam quis ducimus. Itaque
+              qui numquam quisquam temporibus. Consectetur nisi est id sed eum
+              aut minus ad. Maiores ipsa consequuntur nemo hic sit omnis
+              dolores. Natus molestiae inventore totam est nisi sunt cupiditate.
+            </p>
+            <div class="tags"><b>tags:</b> example, example, example</div>
+          </div>
+
+          <div class="blurb">
+            <h1>title</h1>
+            <div class="icon left">
+              <img
+                src="https://archive.cinni.net/test/bouncy-bubbles-avatar-100x100-anime-19.gif"
+              />
+            </div>
+            <h3>example text</h3>
+            <p>
+              Lorem Ipsum. Pariatur delectus quia magnam quis ducimus. Itaque
+              qui numquam quisquam temporibus. Consectetur nisi est id sed eum
+              aut minus ad.
+            </p>
+            <div class="tags">
+              <b>tags:</b>
+              <a
+                href=""
+                title="example text example text example text example text example text example text"
+                >example</a
+              >, <a href="" title="example">example</a>,
+              <a href="" title="example">example</a>
+            </div>
+          </div>
+
+          <hr />
+          <br />
+
+          <h1>Header 1</h1>
+          <h2>Header 2</h2>
+          <h3>Header 3</h3>
+          <h4>Header 4</h4>
+
+          <p><a href="" title="This is a link!">This is a link.</a></p>
+
+          <p class="rainbow">
+            This is a paragraph with the "rainbow" class. Lorem Ipsum. Pariatur
+            delectus quia magnam quis ducimus.
+          </p>
+          <br />
+          <span class="rainbow"
+            >This is a span element with the "rainbow" class. Lorem Ipsum.
+            Pariatur delectus quia magnam quis ducimus.</span
+          ><br /><br />
+        </section>
+      </div>
+
+      <aside>
+        <h1>Header</h1>
+        <section>
+          <marquee
+            scrollamount="3"
+            onmouseover="this.stop();"
+            onmouseout="this.start();"
+            >example text example text example text example text example text
+            example text
+          </marquee>
+        </section>
+        <hr />
+        <section>
+          <center>
+            <small>example buttons</small><br />
+            <img
+              src="https://archive.cinni.net/test/bouncy-bubbles-button-88x31-blank-b7.gif"
+            />
+            <img
+              src="https://archive.cinni.net/test/bouncy-bubbles-button-88x31-blank-b3.gif"
+            />
+            <img
+              src="https://archive.cinni.net/test/bouncy-bubbles-button-88x31-blank-b4.gif"
+            />
+          </center>
+        </section>
+        <hr />
+        <section>
+          <marquee
+            scrollamount="2"
+            onmouseover="this.stop();"
+            onmouseout="this.start();"
+          >
+            <img
+              src="https://archive.cinni.net/test/bouncy-bubbles-button-88x31-blank-b7.gif" />
+            <img
+              src="https://archive.cinni.net/test/bouncy-bubbles-button-88x31-blank-b3.gif" />
+            <img
+              src="https://archive.cinni.net/test/bouncy-bubbles-button-88x31-blank-b4.gif"
+          /></marquee>
+        </section>
+        <hr />
+        <section>
+          <center>example text example text example text example text</center>
+        </section>
+        <hr />
+        <section>
+          <center>example text example text example text example text</center>
+        </section>
+        <hr />
+      </aside>
+      <div class="vinesRight"></div>
+    </main>
+
+    <footer></footer>
+
+    <span class="falling-star"></span>
+    <span class="falling-star"></span>
+
+    <script src="/themeToggle.js"></script>
+    <script src="/typing.js"></script>
+  </body>
+</html>

@@ -1,0 +1,136 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sunrise, Parabellum</title>
+    <link rel="stylesheet" type="text/css" href="/style.css" />
+    <link rel="icon" type="image/x-icon" href="/img/bouncyheart.gif" />
+    <script src="/jquery.js"></script>
+    <script src="/tooltips.js"></script>
+    <script>
+      (function ($) {
+        $(document).ready(function () {
+          $("[title]").style_my_tooltips();
+        });
+      })(jQuery);
+    </script>
+  </head>
+
+  <body>
+    <header>
+      <a href="/index.html"
+        ><img
+          src="/img/logo.png"
+          class="logo"
+          alt="Sunrise, Parabellum"
+          title="Sunrise, Parabellum"
+      /></a>
+    </header>
+
+    <main>
+      <div class="vinesLeft"></div>
+      <nav>
+        <h1>Navigation</h1>
+        <ul>
+          <li><a href="/about.html" title="About">About</a></li>
+          <li><a href="/watching.html" title="Watching">Watching</a></li>
+          <li><a href="/reading.html" title="Reading">Reading</a></li>
+          <li><a href="/art.html" title="Art">Art</a></li>
+          <li><a href="/games.html" title="Games">Games</a></li>
+          <li><a href="/garden.html" title="Garden">Garden</a></li>
+          <li><a href="/recs.html" title="Recommendations">Recs</a></li>
+          <li><a href="/ocs.html" title="Mine">OCs</a></li>
+          <li>
+            <button
+              class="toggle"
+              onclick="toggleTheme()"
+              title="Switch Site Theme"
+            >
+              Switch
+            </button>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="main">
+        <section>
+          <h1>About Example</h1>
+          <div class="quote">
+            <div class="bannerContainer"><span id="banner"></span></div>
+            <div class="tip"></div>
+
+            <div class="quoteIcon">
+              <img
+                src="https://archive.cinni.net/test/bouncy-bubbles-avatar-100x100-cartoon-barunson-19.gif"
+                title="example!"
+              />
+            </div>
+          </div>
+          <h2>CONSTRUCITON ZONE!!!</h2>
+          <hr />
+        </section>
+      </div>
+
+      <aside>
+        <h1>Header</h1>
+        <section>
+          <marquee
+            scrollamount="3"
+            onmouseover="this.stop();"
+            onmouseout="this.start();"
+            >example text example text example text example text example text
+            example text
+          </marquee>
+        </section>
+        <hr />
+        <section>
+          <center>
+            <small>example buttons</small><br />
+            <img
+              src="https://archive.cinni.net/test/bouncy-bubbles-button-88x31-blank-b7.gif"
+            />
+            <img
+              src="https://archive.cinni.net/test/bouncy-bubbles-button-88x31-blank-b3.gif"
+            />
+            <img
+              src="https://archive.cinni.net/test/bouncy-bubbles-button-88x31-blank-b4.gif"
+            />
+          </center>
+        </section>
+        <hr />
+        <section>
+          <marquee
+            scrollamount="2"
+            onmouseover="this.stop();"
+            onmouseout="this.start();"
+          >
+            <img
+              src="https://archive.cinni.net/test/bouncy-bubbles-button-88x31-blank-b7.gif" />
+            <img
+              src="https://archive.cinni.net/test/bouncy-bubbles-button-88x31-blank-b3.gif" />
+            <img
+              src="https://archive.cinni.net/test/bouncy-bubbles-button-88x31-blank-b4.gif"
+          /></marquee>
+        </section>
+        <hr />
+        <section>
+          <center>example text example text example text example text</center>
+        </section>
+        <hr />
+        <section>
+          <center>example text example text example text example text</center>
+        </section>
+        <hr />
+      </aside>
+      <div class="vinesRight"></div>
+    </main>
+
+    <footer></footer>
+
+    <span class="falling-star"></span>
+    <span class="falling-star"></span>
+
+    <script src="/themeToggle.js"></script>
+    <script src="/typing.js"></script>
+  </body>
+</html>
