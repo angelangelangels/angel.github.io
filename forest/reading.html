@@ -1,0 +1,129 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>angeltopia</title>
+    <link rel="stylesheet" type="text/css" href="/styles/style.css" />
+    <link rel="icon" type="image/x-icon" href="/img/bouncyheart.gif" />
+    <script src="/scripts/jquery.js"></script>
+    <script src="/scripts/tooltips.js"></script>
+    <script>
+      (function ($) {
+        $(document).ready(function () {
+          $("[title]").style_my_tooltips();
+        });
+      })(jQuery);
+    </script>
+  </head>
+
+  <body>
+    <header>
+      <a href="/index.html"
+        ><img
+          src="/img/logo.png"
+          class="logo"
+          alt="Sunrise, Parabellum"
+          title="Sunrise, Parabellum"
+      /></a>
+    </header>
+
+    <main>
+      <div class="vinesLeft"></div>
+      <nav>
+        <h1>Navigation</h1>
+        <ul>
+          <li><a href="/forest/about.html" title="About">About</a></li>
+          <li><a href="/forest/games.html" title="Games">Games</a></li>
+          <li><a href="/forest/anime.html" title="Anime">Anime</a></li>
+          <li><a href="/forest/manga.html" title="Manga">Manga</a></li>
+          <li><a href="/forest/reading.html" title="Reading">Reading</a></li>
+          <li><a href="/forest/garden.html" title="Garden">Garden</a></li>
+          <li><a href="/forest/recs.html" title="Recommendations">Recs</a></li>
+          <li>
+            <button
+              class="toggle"
+              onclick="toggleTheme()"
+              title="Switch Site Theme"
+            >
+              Switch
+            </button>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="main">
+        <section>
+          <h1>READING</h1>
+          <div class="quote">
+            <div class="bannerContainer"><span id="banner"></span></div>
+            <div class="tip"></div>
+
+            <div class="quoteIcon">
+              <img src="/img/avatars/bouncy-bubbles-avatar-100x100-anime-19.gif" title="hi!"/>
+            </div>
+          </div>
+          <hr />
+
+          <h2>PAST</h2>
+          <div class="blurb">
+            <h1>purple</h1>
+            <center><h3>DEATHLESS</h3></center>
+            <p>Stalinist house elves, magical quests, secrecy and bureaucracy, & games of lust & power. All told, Deathless is a collision of magical history & actual history, of revolution & mythology, of love & death...</p>
+            <div class="tags">
+              <hr />
+              <b>tags:</b> book club, fairytales, retellings</div>
+          </div>
+          
+          <h2>PRESENT</h2>
+          <div class="blurb">
+            <h1>???</h1>
+            <center><h3>THE LAST WISH</h3></center>
+            <p>The first installment in the Witcher book series by acclaimed author Andrzej Sapkowski. A collection of short stories.</p>
+            <div class="tags">
+              <hr />
+              <b>tags:</b> book club, high fantasy, ???</div>
+          </div>
+        </section>
+      </div>
+
+      <aside>
+        <h1>Trinkets</h1>
+        <section>
+          <marquee
+            scrollamount="3"
+            onmouseover="this.stop();"
+            onmouseout="this.start();"
+            >home sweet home sweet home sweet home sweet home sweet home
+          </marquee>
+        </section>
+        <hr />
+        <section>
+          <center>
+            <img src="/img/buttons/bob.gif"/>
+          </center>
+        </section>
+        <hr />
+        <section>
+          <center>fandomless</center>
+        </section>
+        <hr />
+        <section>
+          <center>
+            have something to
+            <a href="https://curiouscat.live/angelneutics">say?</a>
+          </center>
+        </section>
+        <hr />
+      </aside>
+      <div class="vinesRight"></div>
+    </main>
+
+    <footer></footer>
+
+    <span class="falling-star"></span>
+    <span class="falling-star"></span>
+
+    <script src="/scripts/themeToggle.js"></script>
+    <script src="/scripts/typing.js"></script>
+  </body>
+</html>

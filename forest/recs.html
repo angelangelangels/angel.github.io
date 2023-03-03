@@ -1,0 +1,114 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>angeltopia</title>
+    <link rel="stylesheet" type="text/css" href="/styles/style.css" />
+    <link rel="icon" type="image/x-icon" href="/img/bouncyheart.gif" />
+    <script src="/scripts/jquery.js"></script>
+    <script src="/scripts/tooltips.js"></script>
+    <script>
+      (function ($) {
+        $(document).ready(function () {
+          $("[title]").style_my_tooltips();
+        });
+      })(jQuery);
+    </script>
+  </head>
+
+  <body>
+    <header>
+      <a href="/index.html"
+        ><img
+          src="/img/logo.png"
+          class="logo"
+          alt="Sunrise, Parabellum"
+          title="Sunrise, Parabellum"
+      /></a>
+    </header>
+
+    <main>
+      <div class="vinesLeft"></div>
+      <nav>
+        <h1>Navigation</h1>
+        <ul>
+          <li><a href="/forest/about.html" title="About">About</a></li>
+          <li><a href="/forest/games.html" title="Games">Games</a></li>
+          <li><a href="/forest/anime.html" title="Anime">Anime</a></li>
+          <li><a href="/forest/manga.html" title="Manga">Manga</a></li>
+          <li><a href="/forest/reading.html" title="Reading">Reading</a></li>
+          <li><a href="/forest/garden.html" title="Garden">Garden</a></li>
+          <li><a href="/forest/recs.html" title="Recommendations">Recs</a></li>
+          <li>
+            <button
+              class="toggle"
+              onclick="toggleTheme()"
+              title="Switch Site Theme"
+            >
+              Switch
+            </button>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="main">
+        <section>
+          <h1>RECOMMENDATIONS</h1>
+          <div class="quote">
+            <div class="bannerContainer"><span id="banner"></span></div>
+            <div class="tip"></div>
+
+            <div class="quoteIcon">
+              <img src="/img/avatars/bouncy-bubbles-avatar-100x100-anime-19.gif" title="hi!"
+              />
+            </div>
+          </div>
+          <h2>CONSTRUCTION ZONE!!!</h2>
+          <p>
+            while we wait, why not read this lovely nanago jjk <a href="https://archiveofourown.org/series/3328645" title="Let's Get Drinks!">fic series</a> by one of the greatest writers i know & support my lil buddy's budding talent in <a href="https://ko-fi.com/greatswards" title="FFXIV mod shop">ffxiv modding?</a>
+          </p>
+          <hr />
+        </section>
+      </div>
+
+      <aside>
+        <h1>Trinkets</h1>
+        <section>
+          <marquee
+            scrollamount="3"
+            onmouseover="this.stop();"
+            onmouseout="this.start();"
+            >home sweet home sweet home sweet home sweet home sweet home sweet home sweet home sweet
+          </marquee>
+        </section>
+        <hr />
+        <section>
+          <center>
+            <img src="/img/buttons/bob.gif"/>
+          </center>
+        </section>
+        <hr />
+        <section>
+          <center>fandomless</center>
+        </section>
+        <hr />
+        <section>
+          <center>
+            have something to
+            <a href="https://curiouscat.live/angelneutics">say?</a>
+          </center>
+        </section>
+        <hr />
+      </aside>
+      <div class="vinesRight"></div>
+    </main>
+
+    <footer></footer>
+
+    <span class="falling-star"></span>
+    <span class="falling-star"></span>
+
+    <script src="/scripts/themeToggle.js"></script>
+    <script src="/scripts/typing.js"></script>
+  </body>
+</html>

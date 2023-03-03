@@ -1,0 +1,14 @@
+table{
+	width: 100%;
+	text-align: center;
+	margin: 1.5rem auto;
+	padding: 0.75rem 0;
+	border-radius: 0.5vw;
+	border-spacing: 0.5rem 0;
+}
+
+th{
+	border-radius: 0.33vw;
+	font-size: 1.5rem;
+}
+

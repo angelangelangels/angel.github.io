@@ -1,0 +1,162 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>angeltopia</title>
+    <link rel="stylesheet" type="text/css" href="/styles/style.css" />
+    <link rel="icon" type="image/x-icon" href="/img/bouncyheart.gif" />
+    <script src="/scripts/jquery.js"></script>
+    <script src="/scripts/tooltips.js"></script>
+    <script>
+      (function ($) {
+        $(document).ready(function () {
+          $("[title]").style_my_tooltips();
+        });
+      })(jQuery);
+    </script>
+  </head>
+
+  <body>
+    <header>
+      <a href="/index.html"
+        ><img
+          src="/img/logo.png"
+          class="logo"
+          alt="Sunrise, Parabellum"
+          title="Sunrise, Parabellum"
+      /></a>
+    </header>
+
+    <main>
+      <div class="vinesLeft"></div>
+      <nav>
+        <h1>Navigation</h1>
+        <ul>
+          <li><a href="/forest/about.html" title="About">About</a></li>
+          <li><a href="/forest/games.html" title="Games">Games</a></li>
+          <li><a href="/forest/anime.html" title="Anime">Anime</a></li>
+          <li><a href="/forest/manga.html" title="Manga">Manga</a></li>
+          <li><a href="/forest/reading.html" title="Reading">Reading</a></li>
+          <li><a href="/forest/garden.html" title="Garden">Garden</a></li>
+          <li><a href="/forest/recs.html" title="Recommendations">Recs</a></li>
+          <li>
+            <button
+              class="toggle"
+              onclick="toggleTheme()"
+              title="Switch Site Theme"
+            >
+              Switch
+            </button>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="main">
+        <section>
+          <h1>ANIME</h1>
+          <div class="quote">
+            <div class="bannerContainer"><span id="banner"></span></div>
+            <div class="tip"></div>
+
+            <div class="quoteIcon">
+              <img src="/img/avatars/bouncy-bubbles-avatar-100x100-anime-19.gif" title="hi!"/>
+            </div>
+          </div>
+          <hr />
+
+          <h2>PRESENT</h2>
+          <div class="blurb">
+            <h1>seasonal</h1>
+            <div class="icon right"><img src="/img/avatars/trigun2.jpg" border=3></div>
+            <h2>TRIGUN: STAMPEDE<br />(2023-)</h2>
+            <p>Vash the Stampede’s a joyful gunslinging pacifist, so why does he have a $6 million bounty on his head? That’s what’s puzzling rookie reporter Meryl Stryfe & her jaded veteran partner when looking into the vigilante only to find someone who hates blood. But their investigation turns out to uncover something heinous—his evil twin brother, Millions Knives. </p>
+            <div class="tags">
+              <hr/>
+              <b>tags:</b> action, post-apocalyptic, space western</div>
+          </div>
+
+          <h2>FUTURE</h2>
+          <div class="blurb">
+            <h1>cool</h1>
+            <div class="icon right"><img src="/img/avatars/linkclick.jpg" border=3></div>
+            <h2>LINK CLICK<br /> (2021-)</h2>
+            <p>In a corner of a bustling city, there is a small shop called "Time Photo Studio". Although the entrance looks abandoned, it's actually run by two men with special abilities: Cheng Xiaoshi & Lu Guang. In order to fulfil customers' requests, Lu Guang & Cheng Xiaoshi work together & use their special abilities to enter photos.</p>
+            <div class="tags">
+              <hr/>
+              <b>tags:</b> supernatural, action, mystery</div>
+          </div>
+
+          <div class="blurb">
+            <h1>stylish</h1>
+            <div class="icon right"><img src="/img/avatars/michiko.jpg" border=3></div>
+            <h2>MICHIKO & HATCHIN<br /> (2008-2009)</h2>
+            <p>After escaping from prison, the criminal Michiko rescues an abused girl known as Hatchin. The two are about as opposite as they come, but their fates become intertwined through the connection of a man from both their pasts. On the run from the police & Hatchin's abusive foster parents, the unlikely duo set out to find this man & ultimately discover their freedom.</p>
+            <div class="tags">
+              <hr/>
+              <b>tags:</b> girls with guns, adventure, slice of life</div>
+          </div>
+
+
+            <div class="blurb">
+              <h1>???</h1>
+              <div class="icon right"><img src="/img/avatars/stray.jpg" border=3></div>
+              <h2>STRAY GOD<br /> (2014-2015)</h2>
+              <p>Yato is a homeless god. He doesn’t even have a shrine, not to mention worshippers! So to achieve his ambitious goals, he’s set up a service to help those in need (for a small fee), hoping he’ll eventually raise enough money to build himself the lavish temple of his dreams.</p>
+              <div class="tags">
+                <hr/>
+                <b>tags:</b> urban fantasy, action, supernatural </div>
+        </div>
+
+        <h2>FUTURE-PAST</h2>
+        <div class="blurb">
+          <h1>pookieful</h1>
+          <div class="icon right"><img src="/img/avatars/trigun2.jpg" border=3></div>
+          <h2>TRIGUN<br/>(1998-1998)</h2>
+          <p>Vash the Stampede is a wanted man with a habit of turning entire towns into rubble. The price on his head is a fortune, & his path of destruction reaches across the arid wastelands of a desert planet. Unfortunately, most encounters with the spiky-haired gunslinger don't end well for the bounty hunters who catch up with him; someone almost always gets hurt - & it's never Vash.</p>
+          <div class="tags">
+            <hr/>
+            <b>tags:</b> action, post-apocalyptic, space western</div>
+        </div>
+        </section>
+      </div>
+
+      <aside>
+        <h1>Trinkets</h1>
+        <section>
+          <marquee
+            scrollamount="3"
+            onmouseover="this.stop();"
+            onmouseout="this.start();"
+            >home sweet home sweet home sweet home sweet home sweet home
+          </marquee>
+        </section>
+        <hr />
+        <section>
+          <center>
+            <img src="/img/buttons/bob.gif"/>
+          </center>
+        </section>
+        <hr />
+        <section>
+          <center>fandomless</center>
+        </section>
+        <hr />
+        <section>
+          <center>
+            have something to
+            <a href="https://curiouscat.live/angelneutics">say?</a></center>
+        </section>
+        <hr />
+      </aside>
+      <div class="vinesRight"></div>
+    </main>
+
+    <footer></footer>
+
+    <span class="falling-star"></span>
+    <span class="falling-star"></span>
+
+    <script src="/scripts/themeToggle.js"></script>
+    <script src="/scripts/typing.js"></script>
+  </body>
+</html>
